@@ -6,6 +6,7 @@ body {
 }
 
 #navBar li {
+  z-index: 1;
   position: fixed;
   background-color: #ffc017;
   display: flex;
@@ -171,7 +172,7 @@ h1 {
   margin-left: 500px;
   margin-right: 5000px;
   margin-top: 5vh;
-  width: 50%;
+  width: 30%;
   display: flex;
   align-items: center;
 }
