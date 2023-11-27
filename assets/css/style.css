@@ -52,10 +52,15 @@ ul {
 
 /* SECTION */
 
-#Msty{
+#Mtransform{
+  margin-left: 300px;
+  text-align: center;
   position: relative;
   top: 150px;
-  width: max-content ;
+  font-weight: 400;
+  font-size: xx-large;
+  width: fit-content;
+  top: 60px;
 }
 
 
