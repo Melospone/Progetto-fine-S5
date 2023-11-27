@@ -51,6 +51,13 @@ ul {
 
 /* SECTION */
 
+#Msty{
+  position: relative;
+  top: 150px;
+  width: max-content ;
+}
+
+
 #containerMain {
   background-color: #ffc017;
   display: flex;
@@ -160,7 +167,7 @@ h1 {
 
 /* ASIDE */
 
-.scrollarticle {
+.scroll {
   margin-left: 500px;
   margin-right: 5000px;
   margin-top: 5vh;

@@ -17,3 +17,52 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    let letters = document.querySelectorAll(".move");
+
+    function showLetters(index) {
+        if (index <= letters.length) {
+            letters[index].style.opacity = "0";
+            setTimeout(function() {
+                letters[index].style.opacity = "1";
+                showLetters((index + 1) % letters.length);
+            }, 500); 
+        }
+    }
+    showLetters(0)
+})
+
+document.addEventListener("DOMContentLoaded", function() {
+    let letters = document.querySelectorAll(".move2");
+
+    function showLetters(index) {
+        if (index <= letters.length) {
+            letters[index].style.opacity = "0";
+            setTimeout(function() {
+                letters[index].style.opacity = "1";
+                showLetters((index + 1) % letters.length);
+            }, 500); 
+        } 
+    }
+    showLetters(0)
+})
+
+document.addEventListener("DOMContentLoaded", function() {
+    let letters = document.querySelectorAll(".move3");
+
+    function showLetters(index) {
+        if (index <= letters.length) {
+            letters[index].style.opacity = "0";
+            setTimeout(function() {
+                letters[index].style.opacity = "1";
+                showLetters((index + 1) % letters.length);
+            }, 500); 
+        }
+    }
+    showLetters(0)
+
+})
+
