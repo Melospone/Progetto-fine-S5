@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#navBar li {
+  position: fixed;
+  background-color: #ffc017;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(127, 87, 14);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-items: baseline;
+  width: 100%;
+  font-size: small;
+  font-weight: 500;
+}
+
+#xx {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  align-items: baseline;
+  padding-left: 400px;
+  padding-right: 10px;
+}
+
+ul {
+  padding-right: 8px;
+}
+
+.EleU {
+  border: 1px solid black;
+  background: black;
+  color: aliceblue;
+  border-radius: 20px;
+  padding: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+#logo {
+  margin-top: 20px;
+  padding-left: 550px;
+  padding-right: 200px;
+}
+
+/* SECTION */
+
+#containerMain {
+  background-color: #ffc017;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid rgb(127, 87, 14);
+  padding-bottom: 70px;
+  border-bottom: 1px solid;
+}
+
+h1 {
+  padding-top: 60px;
+  font-family: "Spectral", serif;
+  font-size: 106px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#Scritte {
+  font-weight: 400;
+  width: 50%;
+  margin-left: 550px;
+  font-size: x-large;
+}
+
+#M {
+  width: 50%;
+  background-color: #ffc017;
+}
+
+.EleP {
+  border: 2px solid black;
+  width: 18%;
+  color: white;
+  padding-left: 0px;
+  border-radius: 30px;
+  background-color: black;
+  margin-top: 50px;
+  padding-left: 49px;
+  padding-right: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* CARD */
+
+#titoloCard {
+  margin-left: 350px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: -5px;
+}
+
+#card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  gap: 5px 110px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.cartaSingola {
+  width: 25%;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cartaSingola img{
+    margin-bottom: -5px;
+    width: 10%;
+    align-items: baseline;
+    margin-right: 5px;
+}
+.cartaSingola h5 {
+  font-weight: 800;
+  font-size: medium;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.cartaSingola h6 {
+  margin-bottom: 0px;
+}
+
+.cartaSingola p {
+  font-weight: 200;
+  
+  font-size:smaller;
+  margin-bottom: 0px;
+}
+
+.immaginePiccola {
+  margin-left: 0px;
+  border-radius: 50%;
+}
